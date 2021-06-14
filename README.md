@@ -5,12 +5,13 @@
 
  2. Data cleaning
 
-    - Remove null entries
+    - Remove null text entries
 
 3.  Data Preparation
 
     - Combining text columns
     - Removing stopwords
+    - Lemmatization
     - Vectorisation
 
 4. Kmeans Clustering
