@@ -10,14 +10,32 @@
 3.  Data Preparation
 
     - Combining text columns
-    - Removing stopwords
-    - Lemmatization
-    - Vectorisation
+    - Hashing Vectorisation
+    - TF-IDF Vectorisation
 
-4. Kmeans Clustering
+4. Kmeans Clustering (Hashing Vectorisation and IF-IDF Vectorisation)
 
+    - First conudct unsupervised learning to check for potential inherent patterns within the data which discriminates fake and real data.
     - Using 2 clusters for fake and reliable news
-    - Building the model
+    - Building the models
+    - Model Performances
+
+5. Passive Aggressive Classifier (Hashing Vectorisation and IF-IDF Vectorisation)
+
+    - Building the models
+    - Model Performaces
+
+6. Logistic Regression (Hashing Vectorisation and IF-IDF Vectorisation)
+
+    - Building the models
+    - Model Performaces
+
+7. Recurrent Neural Network (RNN) Long Short-term Memory (LSTM) (Hashing Vectorisation and IF-IDF Vectorisation)
+
+    - Building the models
+    - Model Performaces
+
+8. Best Model for Fake News Classification
 
 
 ## Resources:
@@ -34,4 +52,8 @@
 - https://github.com/rohithramesh1991/Unsupervised-Text-Clustering
 
 - https://www.kaggle.com/nasirkhalid24/unsupervised-k-means-clustering-fake-news-87
+
+- https://www.kaggle.com/lykin22/fake-news-classification-nlp?select=train.csv
+
+- https://www.kaggle.com/bhavikjain/fake-news-classification 
 
