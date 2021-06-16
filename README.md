@@ -159,3 +159,7 @@ Accuracy: 0.9978365
     0       1.00      1.00      1.00      2046
     1       1.00      1.00      1.00      2114
 
+
+### Best Model: XGBoost on TF-IFD Vectorised Data
+
+## Productionisation
