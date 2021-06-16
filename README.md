@@ -77,7 +77,7 @@ Repository for the fake news classifier project
 
 ### KMeans Clustering
 
-Hashing Vectorisation
+#### Hashing Vectorisation
 
 Accuracy: 0.4904447
 
@@ -86,7 +86,7 @@ Accuracy: 0.4904447
     0       0.00      0.00      0.00      8341
     1       0.49      0.98      0.66      8299
 
-TF-IDF Vectorisation
+#### TF-IDF Vectorisation
 
 Accuracy: 0.4904447
 
@@ -100,7 +100,7 @@ Kmeans Clustering performed poorly in clustering the text entries into 2 distinc
 
 ### Passive Aggressive Classifier
 
-Hashing Vectorisation
+#### Hashing Vectorisation
 
 Accuracy: 0.97355769
 
@@ -110,7 +110,7 @@ Accuracy: 0.97355769
     1       0.99      0.96      0.97      2114
 
 
-TF-IDF Vectorisation
+#### TF-IDF Vectorisation
 
 Accuracy: 0.9591346
 
@@ -121,7 +121,7 @@ Accuracy: 0.9591346
 
 ### Logistic Regression
 
-Hashing Vectorisation
+#### Hashing Vectorisation
 
 Accuracy: 0.98125
 
@@ -130,7 +130,7 @@ Accuracy: 0.98125
     0       0.97      0.99      0.98      2046
     1       0.99      0.97      0.98      2114
 
-TF-IDF Vectorisation
+#### TF-IDF Vectorisation
 
 Accuracy: 0.986538
 
@@ -141,7 +141,7 @@ Accuracy: 0.986538
 
 ### XGBoost Classifier
 
-Hashing Vectorisation
+#### Hashing Vectorisation
 
 Accuracy: 0.997356
 
@@ -150,7 +150,7 @@ Accuracy: 0.997356
     0       1.00      1.00      1.00      2046
     1       1.00      1.00      1.00      2114
 
-TF-IFD Vectorisation (best performance)
+#### TF-IFD Vectorisation (best performance)
 
 Accuracy: 0.9978365
 
