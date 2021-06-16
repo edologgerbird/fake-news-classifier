@@ -35,12 +35,7 @@
     - Building the models
     - Model Performances
 
-8. Recurrent Neural Network (RNN) Long Short-term Memory (LSTM) (Hashing Vectorisation and IF-IDF Vectorisation)
-
-    - Building the models
-    - Model Performaces
-
-9. Best Model for Fake News Classification
+8. Best Model for Fake News Classification
 
 
 ## Resources:
