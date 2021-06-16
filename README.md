@@ -30,7 +30,7 @@
     - Building the models
     - Model Performaces
 
-7. RandomForest Regression (Hashing Vectorisation and IF-IDF Vectorisation)
+7. XGBoost Regression (Hashing Vectorisation and IF-IDF Vectorisation)
 
     - Building the models
     - Model Performances
