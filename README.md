@@ -42,41 +42,120 @@ Repository for the fake news classifier project
  - Check for null values
  - Scatter plot of the distribution of article lengths
  - Reported statistical measures of the distribution of article lengths
+ - Obtained a list of the top 50 most frequently used word, excluding stopwords
 
- 2. Data cleaning
+## Data Cleaning and Preparation 
 
-    - Remove null text entries
+- Remove null text entries
+- Combined title, author and article content into 1 column
+- Hashing Vectorisation of text
+- TF-IDF Vectorisation of text
 
-3.  Data Preparation
+## Kmeans Clustering (Hashing Vectorisation and IF-IDF Vectorisation)
 
-    - Combining text columns
-    - Hashing Vectorisation
-    - TF-IDF Vectorisation
+- First conudct unsupervised learning to check for potential inherent patterns within the data which discriminates fake and real data.
+- Using 2 clusters for fake and reliable news
+- Building the models
+- Report Model Performances
 
-4. Kmeans Clustering (Hashing Vectorisation and IF-IDF Vectorisation)
+## Passive Aggressive Classifier (Hashing Vectorisation and IF-IDF Vectorisation)
 
-    - First conudct unsupervised learning to check for potential inherent patterns within the data which discriminates fake and real data.
-    - Using 2 clusters for fake and reliable news
-    - Building the models
-    - Model Performances
+- Building the models
+- Report Model Performaces
 
-5. Passive Aggressive Classifier (Hashing Vectorisation and IF-IDF Vectorisation)
+## Logistic Regression (Hashing Vectorisation and IF-IDF Vectorisation)
 
-    - Building the models
-    - Model Performaces
+- Building the models
+- Report Model Performaces
 
-6. Logistic Regression (Hashing Vectorisation and IF-IDF Vectorisation)
+## XGBoost Regression (Hashing Vectorisation and IF-IDF Vectorisation)
 
-    - Building the models
-    - Model Performaces
+- Building the models
+- Report Model Performances
 
-7. XGBoost Regression (Hashing Vectorisation and IF-IDF Vectorisation)
+## Model Performances
 
-    - Building the models
-    - Model Performances
+### KMeans Clustering
 
-8. Best Model for Fake News Classification
+Hashing Vectorisation
+
+Accuracy: 0.4904447
+
+        precision    recall  f1-score   support
+
+    0       0.00      0.00      0.00      8341
+    1       0.49      0.98      0.66      8299
+
+TF-IDF Vectorisation
+
+Accuracy: 0.4904447
+
+        precision    recall  f1-score   support
+
+    0       0.00      0.00      0.00      8341
+    1       0.49      0.98      0.66      8299
 
 
-## Resources:
+Kmeans Clustering performed poorly in clustering the text entries into 2 distinct clusters. There is insufficient patterns inherently present in the text data that could effectively discriminate between real and fake news.
+
+### Passive Aggressive Classifier
+
+Hashing Vectorisation
+
+Accuracy: 0.97355769
+
+        precision    recall  f1-score   support
+
+    0       0.96      0.99      0.97      2046
+    1       0.99      0.96      0.97      2114
+
+
+TF-IDF Vectorisation
+
+Accuracy: 0.9591346
+
+        precision    recall  f1-score   support
+
+    0       0.92      1.00      0.96      2046
+    1       1.00      0.92      0.96      2114
+
+### Logistic Regression
+
+Hashing Vectorisation
+
+Accuracy: 0.98125
+
+        precision    recall  f1-score   support
+
+    0       0.97      0.99      0.98      2046
+    1       0.99      0.97      0.98      2114
+
+TF-IDF Vectorisation
+
+Accuracy: 0.986538
+
+        precision    recall  f1-score   support
+
+    0       0.98      0.99      0.99      2046
+    1       0.99      0.98      0.99      2114
+
+### XGBoost Classifier
+
+Hashing Vectorisation
+
+Accuracy: 0.997356
+
+        precision    recall  f1-score   support
+
+    0       1.00      1.00      1.00      2046
+    1       1.00      1.00      1.00      2114
+
+TF-IFD Vectorisation (best performance)
+
+Accuracy: 0.9978365
+
+        precision    recall  f1-score   support
+
+    0       1.00      1.00      1.00      2046
+    1       1.00      1.00      1.00      2114
 
