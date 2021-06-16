@@ -10,8 +10,38 @@ Repository for the fake news classifier project
 - Tested Passive Aggressive Classifier, Logistic Regression and XGBoost Regression Classifier. 
 - XGBoost Regression Classifier on TF-IDF Vectorisaton was the best performing model, with an accuracy of 0.9978 on Test Data.
  
- ## Steps:
- 1. EDA
+## Codes and Resources Used
+
+**Python Version:** 3.9
+
+**Packages:** pandas, numpy, sklearn, matplotlip, seaborn, nltk
+
+**Web Framework Requirements**: ```pip install -r requirements.txt```
+
+**Data Set:** https://www.kaggle.com/c/fake-news/data
+
+- https://medium.com/@rohithramesh1991/unsupervised-text-clustering-using-natural-language-processing-nlp-1a8bc18b048d
+
+- https://github.com/adriancampos1/Enron_Email_Analysis/blob/master/Enron_Email_Analysis_K-means_clustering.ipynb
+
+- https://www.kaggle.com/haithemhermessi/fake-news-classifier-using-lstm
+
+- https://trenton3983.github.io/files/projects/2019-07-19_fraud_detection_python/2019-07-19_fraud_detection_python.html
+
+- https://github.com/rohithramesh1991/Unsupervised-Text-Clustering
+
+- https://www.kaggle.com/nasirkhalid24/unsupervised-k-means-clustering-fake-news-87
+
+- https://www.kaggle.com/bhavikjain/fake-news-classification 
+
+- https://stackoverflow.com/questions/58120996/text-analysis-finding-the-most-common-word-in-a-column-using-python
+
+
+ ## Exploratory Data Analysis
+ 
+ - Check for null values
+ - Scatter plot of the distribution of article lengths
+ - Reported statistical measures of the distribution of article lengths
 
  2. Data cleaning
 
@@ -49,21 +79,4 @@ Repository for the fake news classifier project
 
 
 ## Resources:
-- https://medium.com/@rohithramesh1991/unsupervised-text-clustering-using-natural-language-processing-nlp-1a8bc18b048d
-
-- https://github.com/adriancampos1/Enron_Email_Analysis/blob/master/Enron_Email_Analysis_K-means_clustering.ipynb
-
-- https://www.kaggle.com/haithemhermessi/fake-news-classifier-using-lstm
-
-- https://www.kaggle.com/c/fake-news/data
-
-- https://trenton3983.github.io/files/projects/2019-07-19_fraud_detection_python/2019-07-19_fraud_detection_python.html
-
-- https://github.com/rohithramesh1991/Unsupervised-Text-Clustering
-
-- https://www.kaggle.com/nasirkhalid24/unsupervised-k-means-clustering-fake-news-87
-
-- https://www.kaggle.com/lykin22/fake-news-classification-nlp?select=train.csv
-
-- https://www.kaggle.com/bhavikjain/fake-news-classification 
 
