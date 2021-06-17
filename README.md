@@ -9,6 +9,7 @@ Repository for the fake news classifier project
 - Conducted both Hashing Vectorisation and IF-IDF Vectorisation of the text data to determine which form of NLP Vectorisation produced to best performing model.
 - Tested Passive Aggressive Classifier, Logistic Regression and XGBoost Regression Classifier. 
 - XGBoost Regression Classifier on TF-IDF Vectorisaton was the best performing model, with an accuracy of 0.9978 on Test Data.
+ - Built a client facing UI using Flask API, WTForms and Jinja2. 
  
 ## Codes and Resources Used
 
@@ -35,6 +36,10 @@ Repository for the fake news classifier project
 - https://www.kaggle.com/bhavikjain/fake-news-classification 
 
 - https://stackoverflow.com/questions/58120996/text-analysis-finding-the-most-common-word-in-a-column-using-python
+
+**Flask WTForms:** https://hackersandslackers.com/flask-wtforms-forms/
+
+**Flask WTForms Github:** https://github.com/hackersandslackers/flask-wtform-tutorial/tree/master/flask_wtforms_tutorial
 
 
  ## Exploratory Data Analysis
