@@ -167,10 +167,12 @@ Accuracy: 0.9978365
 With our model built, I moved forward to develop a client-facing UI that accepts the parameters and outputs the predicted classification of the news article, along with its associated probabilities. I used WTForms under the Flask API to create a form for users to key in the respective parameters.
 
 
-![Predictor Interface](https://github.com/edologgerbird/salary_pred/blob/main/assets/demo0.png "Predictor Interface")
+![Predictor Interface](https://github.com/edologgerbird/fake-news-classifier/blob/main/assets/form1.png "Predictor Interface")
 
 
-![Predictor Interface](https://github.com/edologgerbird/salary_pred/blob/main/assets/demo1.png "Predictor Interface")
+![Predictor Interface](https://github.com/edologgerbird/fake-news-classifier/blob/main/assets/form2.png "Predictor Interface")
 
 
-![Predictor Interface](https://github.com/edologgerbird/salary_pred/blob/main/assets/demo2.png "Predictor Interface")
+![Predictor Interface](https://github.com/edologgerbird/fake-news-classifier/blob/main/assets/form3.png "Predictor Interface")
+
+![Predictor Interface](https://github.com/edologgerbird/fake-news-classifier/blob/main/assets/form4.png "Predictor Interface")
