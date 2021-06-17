@@ -14,15 +14,6 @@ app.config['SECRET_KEY'] = SECRET_KEY
 def pred_form():
     form = PredForm()
     if form.validate_on_submit():
-        # session['min_exp'] = form.min_exp.data
-        # session['job_title'] = form.job_title.data
-        # session['employment_type'] = form.employment_type.data
-        # session['seniority'] = form.seniority.data
-        # session['job_cat'] = form.job_cat.data
-        # session['job_desc'] = form.job_desc.data
-        # x_input = predictor.format_input(session['min_exp'],session['job_title'], session['employment_type'], session['seniority'], session['job_cat'], session['job_desc'] )
-        # pred_salary = predictor.predict(x_input)
-        # session['pred_salary'] = pred_salary
 
         session['title'] = form.title.data
         session['author'] = form.author.data
