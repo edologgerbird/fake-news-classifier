@@ -46,3 +46,6 @@ def predict(x_input):
 # print(x_input.shape)
 # preds = predict(x_input)
 # print(preds)
+
+
+# https://edition.cnn.com/2021/06/05/politics/donald-trump-north-carolina-speech/index.html

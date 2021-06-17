@@ -1,9 +1,9 @@
-# Fake News Classifier
+# Fake News Classifier (USA Presidential Elections 2016)
 
 ## Project Overview
 
 Repository for the fake news classifier project
-- Developed models to classify if a given news article is fake or reliable news. Positive class indicates fake news. 
+- Developed models to classify if a given news article related to the USA Presidential Election 2016 is fake or reliable news. Positive class indicates fake news and negative class indicates reliable news.
 - Constructed the model based on the Kaggle Fake News Dataset which contains 20800 labeled news articles, of which about half are fake news articles and the other half are reliable news articles.
 - Inspected for inherent patterns using unsupervised learning (K-means clustering) that will discriminate the news articles between fake and reliable, without referencing to the given labels.
 - Conducted both Hashing Vectorisation and IF-IDF Vectorisation of the text data to determine which form of NLP Vectorisation produced to best performing model.
@@ -15,7 +15,7 @@ Repository for the fake news classifier project
 
 **Python Version:** 3.9
 
-**Packages:** pandas, numpy, sklearn, matplotlip, seaborn, nltk
+**Packages:** pandas, numpy, sklearn, matplotlip, seaborn, nltk,  pickle, flask, wtforms
 
 **Web Framework Requirements**: ```pip install -r requirements.txt```
 
@@ -181,3 +181,11 @@ With our model built, I moved forward to develop a client-facing UI that accepts
 ![Predictor Interface](https://github.com/edologgerbird/fake-news-classifier/blob/main/assets/form3.png "Predictor Interface")
 
 ![Predictor Interface](https://github.com/edologgerbird/fake-news-classifier/blob/main/assets/form4.png "Predictor Interface")
+
+## Limitations of Model
+
+- Model was trained predominantly on news articles released during USA Presidential Elections 2016. Hence, the model is limited to news articles related to this specific context.
+
+## Potential Extensions
+
+- Expand the training set to contain more contexts.
