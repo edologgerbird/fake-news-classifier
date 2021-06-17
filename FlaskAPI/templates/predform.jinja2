@@ -1,0 +1,41 @@
+{% extends 'layout.jinja2' %}
+
+{% block styles %}
+
+    <link
+        rel="stylesheet"
+        href="{{ url_for('static', filename='css/forms.css') }}"
+        type="text/css"
+    />
+
+{% endblock %}
+
+{% block content %}
+
+    <div class="form-wrapper">
+        <h2 class="title">Fake News Classifier</h2>
+
+        <form method="POST" action="{{ url_for('pred_form') }}">
+            {{ form.csrf_token }}
+
+            <fieldset class="form-field">
+                {{ form.title.label }}
+                {{ form.title(size=100) }}
+            </fieldset>
+
+            <fieldset class="form-field">
+                {{ form.author.label }}
+                {{ form.author(size=100) }}
+            </fieldset>
+
+            <fieldset class="form-field">
+                {{ form.content.label }}
+                {{ form.content(size=100) }}
+            </fieldset>
+
+            {{ form.submit }}
+
+        </form>
+    </div>
+
+{% endblock %}

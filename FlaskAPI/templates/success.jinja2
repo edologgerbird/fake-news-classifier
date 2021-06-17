@@ -1,0 +1,26 @@
+{% extends 'layout.jinja2' %}
+
+{% block styles %}
+
+    <link
+        rel="stylesheet"
+        href="{{ url_for('static', filename='css/success.css') }}"
+        type="text/css"
+    />
+
+{% endblock %}
+
+{% block content %}
+
+    <div class="success-wrapper">
+      <h1>Here are the results</h1>
+      <p>Probability of Fake News: {{pred_1}} </p>
+      <p>Probability of Real News: {{pred_0}} </p>
+      <h2> This article is {{pred_label}} </h2>
+
+      <a href="{{ url_for('pred_form') }}">
+          <button>Start over</button>
+      </a>
+    </div>
+
+{% endblock %}
